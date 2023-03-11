@@ -1,0 +1,37 @@
+/* Set default font-family */
+.ql-container.ql-snow{
+    font-family: 'Itim', cursive;
+    font-size:20px;
+    height: 350px;
+}
+
+.ql-snow{
+    font-size:20px;
+}
+
+.ql-editor p {
+    text-indent: 2rem;
+}
+
+.ql-editor h1,h2,h3,h4,h5,h6 {
+    text-indent: .5rem;
+}
+
+.ql-editor img{
+    width:70%;
+    margin:auto
+}
+
+.rotate {
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-item {
+        @apply text-white hover:underline hover:underline-offset-8 py-4 px-10 text-xl
+        text-xl
+        min-[414px]:text-2xl
+        max-sm:p-6
+        md:block md:pt-6
+        lg:text-3xl;
+    }
+    .text-footer {
+        @apply text-xl xl:text-3xl text-white m-3
+        md:my-4 md:mx-0
+        max-[414px]:m-2
+    }
+    .blogcard_iconbtn {
+        @apply absolute bg-white border border-black border-solid top-6 w-8 h-8 px-2 py-1
+        md:w-10 md:h-10 md:py-2 md:px-3 
+    }
+}
